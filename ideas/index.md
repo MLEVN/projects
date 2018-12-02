@@ -1,6 +1,11 @@
 # Project Ideas from MLEVN
 If you are interested in working on any of the listed projects, please open [an issue on Github](https://github.com/MLEVN/projects/issues) to track the progress.
 
+## Dataset distillation for other tasks
+A recent paper by researchers from MIT, FAIR and Berkeley [1] shows how one can generate a very small synthetic dataset which is enough to train a neural network to achieve good performance on MNIST dataset. The authors plan to extend the work to larger image datasets and to non-image datasets. Adapting the method for [text and EHR data](#a-short-list-of-non-image-classification-tasks) can be both challenging and interesting.
+
+[1] Tongzhou Wang, Jun-Yan Zhu, Antonio Torralba, Alexei A. Efros, _Dataset Distillation_, [arXiv](https://arxiv.org/abs/1811.10959)
+
 ## Neuron deletion vs generalization for other tasks
 _Victoria Poghosyan is working on this._
 
