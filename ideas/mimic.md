@@ -1,4 +1,4 @@
-# Project ideas related to MIMIC-III benchmarks
+# [Project Ideas from MLEVN](/projects/ideas): MIMIC-III benchmarks
 The main repo of the benchmark: [YerevaNN/mimic3-benchmarks](https://github.com/YerevaNN/mimic3-benchmarks)
 
 ## Implement more neural architectures for the benchmark
