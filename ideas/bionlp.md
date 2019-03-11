@@ -2,9 +2,11 @@
 
 ## Fine-tune BERT for biomedical domain
 * Recently, a bio-specific tokenizer / tagger / parser was released by Allen AI called `scispacy`.
-* BERT is a very powerful language model trained by Google on huge datasets.
+* [BERT](https://github.com/google-research/bert) is a very powerful language model trained by Google on huge datasets.
 * Is it possible to tune BERT so that it keeps its general power, but works better for biomedical downstream tasks?
-* TODO: Design evaluation strategy
+* TODO: Design evaluation strategy. There is a paper [1] that can help.
+
+[1] Wang et al., A Comparison of Word Embeddings for the Biomedical Natural Language Processing, [arxiv](https://arxiv.org/pdf/1802.00400.pdf)
 
 ## Predict the organism for biological named entities 
 * Named entity recognition for biomedical texts is usually performed at a sentence level
