@@ -4,6 +4,7 @@
 * Recently, a bio-specific tokenizer / tagger / parser was released by Allen AI called `scispacy`.
 * [BERT](https://github.com/google-research/bert) is a very powerful language model trained by Google on huge datasets.
 * Is it possible to tune BERT so that it keeps its general power, but works better for biomedical downstream tasks?
+  * Check [BioBert](https://github.com/dmis-lab/biobert)
 * TODO: Design evaluation strategy. There is a paper [1] that can help.
 
 [1] Wang et al., A Comparison of Word Embeddings for the Biomedical Natural Language Processing, [arxiv](https://arxiv.org/pdf/1802.00400.pdf)
