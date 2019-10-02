@@ -12,7 +12,7 @@ which advocates for proper tuning of the baselines. So, it won't be easy to find
 The paper does contain an **albation** study. But the method has so many moving parts that we believe there are more things to check: 
 * What if we replace Euclidean norm in (4) by cross-entropy?
 * What if we keep the original MixUp by ignoring equation (9)?
-* Use Virtual Adversarial Training instead of data augmentation
+* Use [Virtual Adversarial Training](https://arxiv.org/abs/1704.03976) instead of data augmentation
 * What is the role of weight decay?
 * What is the role of the exponential moving average of the parameters for evaluation?
 
